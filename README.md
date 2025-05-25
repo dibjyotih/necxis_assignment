@@ -5,7 +5,8 @@ Necxis is a cross-platform app combining a **Next.js web frontend** with an **Ex
 Website can be viewed via : https://necxis-assignment-phi.vercel.app/
 
 ---
-![Screenshot 2025-05-24 175100](https://github.com/user-attachments/assets/0b4ba56e-8a38-4b21-9182-fe7601f062eb)
+![image](https://github.com/user-attachments/assets/28193182-a54b-4dbb-a08f-d57d7d5fb6d3)
+
 
 
 ## 🔥 Frontend: `nextjs-web`
