@@ -17,6 +17,9 @@ Website can be viewed via : https://necxis-assignment-phi.vercel.app/
 - MUI UI with Dark/Light toggle
 - Runs inside Expo WebView
 
+## Folder Structure
+![Screenshot 2025-05-25 151821](https://github.com/user-attachments/assets/f086bcbf-2efa-4dd4-8ae1-0736aba8f331)
+
 ### 🛠 Setup
 1. Create Firebase project
 2. Enable Google Sign-In (Authentication → Google)
@@ -34,8 +37,6 @@ cd nextjs-web
 npm install
 npm run dev
 
-## Folder Structure
-![Screenshot 2025-05-25 151821](https://github.com/user-attachments/assets/f086bcbf-2efa-4dd4-8ae1-0736aba8f331)
 
 The front end runs on localhost:3000 after lauching the firebase.ts as npm run dev
 ## Expo
