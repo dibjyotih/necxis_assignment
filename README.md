@@ -7,7 +7,8 @@ Website can be viewed via : https://necxis-assignment-phi.vercel.app/
 ---
 ![image](https://github.com/user-attachments/assets/28193182-a54b-4dbb-a08f-d57d7d5fb6d3)
 
-
+Expo part is available in https://github.com/dibjyotih/necxis_submit
+you can run the website in your expo-go app
 
 ## 🔥 Frontend: `nextjs-web`
 
@@ -41,8 +42,6 @@ npm run dev
 The front end runs on localhost:3000 after lauching the firebase.ts as npm run dev
 ## Expo
 
-Expo part is available in https://github.com/dibjyotih/necxis_submit
-you can run the website in your expo-go app
 
 ## 📦 Tech Stack
 Frontend: Next.js, MUI, Firebase
