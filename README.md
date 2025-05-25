@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Necxis Project
 
-## Getting Started
+Necxis is a cross-platform app combining a **Next.js web frontend** with an **Expo Android app backend**. It features **Firebase Google Sign-In** and **Push Notifications** using **Firebase Cloud Messaging (FCM)**.
 
-First, run the development server:
+Website can be viewed via : https://necxis-assignment-phi.vercel.app/
 
-```bash
+---
+![Screenshot 2025-05-24 175100](https://github.com/user-attachments/assets/0b4ba56e-8a38-4b21-9182-fe7601f062eb)
+
+
+## 🔥 Frontend: `nextjs-web`
+
+### 🔧 Features
+- Google Sign-In via Firebase
+- Firebase Cloud Messaging (FCM)
+- MUI UI with Dark/Light toggle
+- Runs inside Expo WebView
+
+### 🛠 Setup
+1. Create Firebase project
+2. Enable Google Sign-In (Authentication → Google)
+3. Enable FCM (Settings → Cloud Messaging → Generate VAPID key)
+
+### 📁 Firebase Config
+Paste your Firebase config into `lib/firebase.ts` or use `.env.local`:
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=...
+NEXT_PUBLIC_FIREBASE_VAPID_KEY=...
+
+## Run
+git clone https://github.com/YOUR_USERNAME/nextjs-web.git
+cd nextjs-web
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Folder Structure
+![Screenshot 2025-05-25 151821](https://github.com/user-attachments/assets/f086bcbf-2efa-4dd4-8ae1-0736aba8f331)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The front end runs on localhost:3000 after lauching the firebase.ts as npm run dev
+## Expo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Expo part is available in https://github.com/dibjyotih/necxis_submit
+you can run the website in your expo-go app
 
-## Learn More
+## 📦 Tech Stack
+Frontend: Next.js, MUI, Firebase
 
-To learn more about Next.js, take a look at the following resources:
+Mobile: Expo, WebView, Firebase Native FCM
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Done
+ Google Auth via Firebase
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ Web Push with VAPID
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ Native FCM on Android
